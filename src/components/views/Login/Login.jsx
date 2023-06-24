@@ -56,7 +56,7 @@ const Login = () => {
     }
 
     const onSubmit = () => {
-        axios.post('', body)
+        axios.post('http://localhost:4000/api/login', body)
             .then(({ data }) => {
                 localStorage.setItem('auth', '"yes"')
                 push('/app')
