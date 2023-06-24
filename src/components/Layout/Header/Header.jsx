@@ -7,7 +7,7 @@ const Header = ({ setOpen }) => {
     const history = useHistory()
     
     return (
-        <AppBar color='secondary'>
+        <AppBar color='primary'>
             <Toolbar>
                 <IconButton edge='start' color='inherit' onClick={() => setOpen(true)}>
                     <MenuIcon />
